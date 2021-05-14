@@ -1,0 +1,13 @@
+form {
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+input[type="submit"] {
+    width: 250px;
+}

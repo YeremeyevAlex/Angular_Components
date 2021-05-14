@@ -1,0 +1,5 @@
+<form>
+    <input name="title" type="text" placeholder="Post title" [(ngModel)]="title" />
+    <textarea name="text" cols="30" rows="10" placeholder="Post text" [(ngModel)]="text"></textarea>
+    <input type="submit" value="Add post" (click)="addPost()" />
+</form>

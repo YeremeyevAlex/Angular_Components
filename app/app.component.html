@@ -1,0 +1,5 @@
+<div class="container">
+  <app-post-form (onAdd)="updatePosts($event)"></app-post-form>
+  <hr />
+  <app-post *ngFor="let p of posts" [mypost]="p"></app-post>
+</div>
